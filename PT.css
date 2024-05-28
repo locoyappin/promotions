@@ -1,0 +1,21 @@
+.box1 {
+    width: 300px;
+    height: 110px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.box2 {
+        width: 300px;
+        height: 250px;
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+}
+.box3 {
+            width: 300px;
+            height: 270px;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+}
