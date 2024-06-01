@@ -1,22 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" media="screen" href="promotions.css" />
-    <script src="main.js"></script>
-
+    <title>Promotions</title>
+    <script src="https://cdn.tailwindcss.com"></script>       
+    <style>
+      #menu-toggle:checked + #menu {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+     <nav class="lg:px-16 px-6 bg-white shadow-md flex flex-wrap items-center lg:py-0 py-2">
+    <div class="flex-1 flex justify-between items-center">
+      <a href="/" class="flex text-lg font-semibold">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/64/Civil_Air_Patrol_US.svg"
+          width="50"
+          height="50"
+          class="p-2"
+          alt="Civil Air Patrol Logo"
+        />
+        <div class="mt-3 text-red-600">Civil Air Patrol</div>
+      </a>
+    </div>
+    <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+      <svg
+        class="fill-current text-gray-900"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+      >
+        <title>menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+      <nav>
+        <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0">
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+              href="https://www.cap.news/"
+            >
+              News
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+              href="http://www.mcchord.org/rack_builder/"
+            >
+              Ribbons
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+              href="ptrequirements.html"
+            >
+              Physical Training
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+              href="promotionsettings.html"
+            >
+              Settings
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+              href="knowledge.html"
+            >
+              Knowledge
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+              href="links.html"
+            >
+              Links
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+  </body>
+</html>
 <title>Promotions</title>
-</head>
-<body>
-     <H2>Name</H2>
-    <H3>Milestone 1 Wright Brothers</H3>
-    <button onclick="document.location='promotions3.html'">Back</button>
-    <button onclick="document.location='promotions4.html'">Next</button>
-    <button onclick="document.location='promotionsettings.html'">Settings</button>
 
+ <h2 class="text-center">Name</h2>
+ <h3 class="text-center">Wright Brothers</h3>
+
+<img class="max-w-xs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CAmn.svg/640px-CAmn.svg.png">
+ <button class="items-baseline items-center sblock uppercase mx-auto shadow bg-indigo-800 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded" onclick="document.location='promotions3.html'">Back</button>
+<button class="items-baseline text-right sblock uppercase mx-auto shadow bg-indigo-800 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded" onclick="document.location='promotions4.html'">Next</button>
+<button class="items-baseline text-right sblock uppercase mx-auto shadow bg-indigo-800 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded" onclick="document.location='directory.html'">Rank Directory</button>
+ 
 
     <img src="CAmn.svg">
    <div class="box"> <h4><a href="wrightbrothersleadership.html"> Leadership </a></h4>
